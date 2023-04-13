@@ -20,3 +20,4 @@ console.log (18.5 + 2* 7.5)
 // 100 = 0,2 olduğunu unutmayın)
 
 console.log ((18.5 + 2* 7.5)* 0.1)
+
