@@ -19,6 +19,11 @@
     ">Add to Cart</button>
 
     <button onclick="
+    cartQuantity -= 1
+    console.log(`subtract ${cartQuantity}`)
+    ">subtract</button>
+
+    <button onclick="
     cartQuantity = cartQuantity + 2; 
     //cartQuantity += 2 ----> yukaridaki islemin kisa yolu
     console.log(`cart quantity = ${cartQuantity}`);
@@ -28,12 +33,31 @@
     cartQuantity = cartQuantity + 3;
     console.log(`cart quantity = ${cartQuantity}`)
     ">+3</button>
+
+</button>
+<button onclick="cartQuantity += 4
+console.log(`cart quantity: ${cartQuantity}`)
+">+4</button>
+
+
+<button onclick="cartQuantity += 5
+console.log(`cart quantity: ${cartQuantity}`)
+">+5</button>
     
+    <button onclick="
+    cartQuantity -= 2
+    console.log(`cart quantity: ${cartQuantity}`)
+    ">-2</button>
+
+    <button onclick="
+    cartQuantity -= 3
+    console.log(`cart quantity: ${cartQuantity}`)
+    ">-3</button>
     <button onclick="
     cartQuantity = 0;
     console.log(`cart was reset`)
     console.log(`cart quantity : ${cartQuantity}`)
-    ">Reset Cart</button>
+    ">Reset Cart
 
     <script>
         let cartQuantity = 0;
